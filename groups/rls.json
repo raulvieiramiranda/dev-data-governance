@@ -1,0 +1,16 @@
+{
+    "members": [
+      "test_rls"
+    ],
+      "integrationUser": false,
+        "rls": {
+          "dev.oms_silver.orders_latest": {
+          "column": "hostname",
+          "accounts": ["lojafarm", "samsungbrshop"]
+          },
+          "dev.payments_silver.transaction_transitions": {
+          "column": "account",
+          "accounts": ["lojafarm", "samsungbrshop"]
+      }
+    } 
+  }
